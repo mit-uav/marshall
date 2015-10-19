@@ -1,0 +1,32 @@
+#Turn down all stream rates except position and params so that we don't clog the channel
+SR0_EXTRA1,1
+SR0_EXTRA2,1
+SR0_EXTRA3,1
+SR0_EXT_STAT,1
+SR0_PARAMS,10
+SR0_POSITION,10
+SR0_RAW_CTRL,1
+SR0_RAW_SENS,1
+SR0_RC_CHAN,1
+
+#Only failsafe on low battery, EKF problems, and crash
+FS_EKF_ACTION,1
+FS_CRASH_CHECK,1
+FS_BATT_ENABLE,1
+FS_BATT_VOLTAGE,10.5
+FS_BATT_MAH,5000
+FS_THR_ENABLE,0
+
+#Navigation speeds
+WPNAV_SPEED,650
+WPNAV_SPEED_DN,150
+WPNAV_SPEED_UP,250
+
+#Turn on precision landing
+PRECLAND_TYPE,1
+PRECLAND_SPEED,100
+LAND_SPEED,100
+
+FENCE_ENABLE,0
+
+#TODO activate rangefinder, optical flow, compass orientation
