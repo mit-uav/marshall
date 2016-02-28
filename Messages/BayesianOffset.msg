@@ -5,5 +5,6 @@
 time timestamp
 
 # State field definitions
-LineSegment[] lines
-
+float64 dx
+float64 dy
+float64 dz 
