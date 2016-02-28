@@ -1,5 +1,6 @@
-# LineList.msg
-# Message with list of detected lines
+# BayesianOffset.msg
+# Message with changes in x, y, z directions to send position updates
+# -- not currently in use, only template for potential use --
 
 # Timestamp
 time timestamp

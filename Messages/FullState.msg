@@ -1,5 +1,5 @@
-# LineList.msg
-# Message with list of detected lines
+# FullState.msg
+# Message with estimates of UAV and Roombas
 
 # Timestamp
 time timestamp
