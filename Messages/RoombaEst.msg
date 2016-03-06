@@ -18,3 +18,4 @@ float64 x_var
 float64 y_var
 float64 vel_x_var
 float64 vel_x_var 
+float64 time_since_last
